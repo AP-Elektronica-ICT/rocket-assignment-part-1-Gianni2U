@@ -430,7 +430,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 100
+  far clip plane: 70
   field of view: 116.80076
   orthographic: 0
   orthographic size: 13
@@ -457,7 +457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.08715578, y: 0, z: 0, w: 0.9961947}
-  m_LocalPosition: {x: 0, y: 18.25, z: -23.75}
+  m_LocalPosition: {x: 0, y: 18.553885, z: -25.473413}
   m_LocalScale: {x: 4, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -476,7 +476,7 @@ GameObject:
   - component: {fileID: 1046874511}
   - component: {fileID: 1046874510}
   - component: {fileID: 1046874514}
-  - component: {fileID: 1046874515}
+  - component: {fileID: 1046874516}
   m_Layer: 0
   m_Name: Finish_Field
   m_TagString: Untagged
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 100
---- !u!114 &1046874515
+--- !u!114 &1046874516
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a85464048eaebae4e9ba29153c1c62f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newscene: Level2
+  nextscene: Level2
   thisscene: Level1
 --- !u!1 &1096055476 stripped
 GameObject:
@@ -978,7 +978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 502079103458017503, guid: 3af5785de8bff04419131b46efd54b36, type: 3}
       propertyPath: mainTime
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3af5785de8bff04419131b46efd54b36, type: 3}
@@ -995,7 +995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2764363230790877531, guid: 19cfcee09e1b03a448de06538059b22e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.25
+      value: 44.25
       objectReference: {fileID: 0}
     - target: {fileID: 2764363230790877531, guid: 19cfcee09e1b03a448de06538059b22e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1037,6 +1037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikeball_Small
       objectReference: {fileID: 0}
+    - target: {fileID: 2764363230791245179, guid: 19cfcee09e1b03a448de06538059b22e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19cfcee09e1b03a448de06538059b22e, type: 3}
 --- !u!1001 &5773574011944161536
@@ -1052,7 +1056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5769190199697723946, guid: fb7cfd24bc7eb0040b9c1d07a16e9344, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.5
+      value: 53.5
       objectReference: {fileID: 0}
     - target: {fileID: 5769190199697723946, guid: fb7cfd24bc7eb0040b9c1d07a16e9344, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1093,6 +1097,10 @@ PrefabInstance:
     - target: {fileID: 5772581374270277168, guid: fb7cfd24bc7eb0040b9c1d07a16e9344, type: 3}
       propertyPath: m_Name
       value: FuelCan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772581374270277168, guid: fb7cfd24bc7eb0040b9c1d07a16e9344, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb7cfd24bc7eb0040b9c1d07a16e9344, type: 3}
