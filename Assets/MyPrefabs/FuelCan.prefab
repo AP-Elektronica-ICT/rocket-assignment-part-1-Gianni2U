@@ -91,9 +91,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5769190199697723946}
   - component: {fileID: 5773574012409294383}
-  - component: {fileID: 5773574012409294384}
   - component: {fileID: 5773574012409294386}
   - component: {fileID: 5773574012409294387}
+  - component: {fileID: 2433178640940549649}
   m_Layer: 0
   m_Name: FuelCan
   m_TagString: Untagged
@@ -108,7 +108,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5772581374270277168}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 20.5, y: 23.65, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
@@ -134,19 +134,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &5773574012409294384
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5772581374270277168}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.27229896, y: 0.4, z: 0.17177048}
-  m_Center: {x: -0.013850522, y: 0.2, z: -0.014114762}
 --- !u!114 &5773574012409294386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,6 +159,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e516303fcecc9404e9ad8bf4447211a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &2433178640940549649
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5772581374270277168}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.16617982
+  m_Height: 0.5956055
+  m_Direction: 1
+  m_Center: {x: -0.022196842, y: 0.19517823, z: -0.012895203}
 --- !u!1 &5773574010620679423
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +264,7 @@ MeshCollider:
   m_GameObject: {fileID: 5773574010620679423}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -358,9 +359,9 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5773574011156301788}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
+  m_IsTrigger: 1
+  m_Enabled: 0
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}

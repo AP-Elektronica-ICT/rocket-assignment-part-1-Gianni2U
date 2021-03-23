@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Disappear : MonoBehaviour
+public class PickupBehavior : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -20,6 +20,7 @@ public class Disappear : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Destroy(gameObject);
+            ScoreCount.ScoreCountUp();
         }
     }
 }
