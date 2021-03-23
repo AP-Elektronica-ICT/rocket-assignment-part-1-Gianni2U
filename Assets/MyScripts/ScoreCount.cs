@@ -21,6 +21,11 @@ public class ScoreCount : MonoBehaviour
         scoretext.text = score.ToString();
     }
 
+    public static void ScoreReset()
+    {
+        score = 0;
+    }
+
     public static void ScoreCountUp()
     {
         score++;
